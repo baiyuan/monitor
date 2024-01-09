@@ -1,0 +1,3 @@
+systemctl status cmk-agent-ctl-daemon
+cmk-agent-ctl status
+ss -tulpn | grep 6556
