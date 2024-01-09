@@ -1,3 +1,4 @@
 systemctl status cmk-agent-ctl-daemon
 cmk-agent-ctl status
 ss -tulpn | grep 6556
+cmk-agent-ctl register --detect-proxy --hostname FOO --server FOO --site FOO --user FOO --password FOO
